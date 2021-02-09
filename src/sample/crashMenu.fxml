@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CrashMenu">
+   <children>
+      <TextField alignment="CENTER" layoutX="88.0" layoutY="144.0" prefHeight="62.0" prefWidth="225.0" style="-fx-background-color: YELLOW;" text="CONTINUE?">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="55.0" fitWidth="110.0" layoutX="88.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@100Star.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="118.0" layoutX="198.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Video.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="HSButton" layoutX="88.0" layoutY="206.0" mnemonicParsing="false" opacity="0.0" prefHeight="49.0" prefWidth="110.0" text="100SButton" />
+      <Button fx:id="VideoButton" layoutX="198.0" layoutY="206.0" mnemonicParsing="false" opacity="0.0" prefHeight="49.0" prefWidth="115.0" text="VideoButton" />
+      <Button fx:id="CloseButton" layoutX="268.0" layoutY="131.0" mnemonicParsing="false" onAction="#ActionReturnHome2" style="-fx-background-color: RED;" text="CLOSE" />
+      <ImageView fitHeight="104.0" fitWidth="129.0" layoutX="142.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Replay.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="RestartButton" layoutX="154.0" layoutY="309.0" mnemonicParsing="false" onAction="#ActionRestart2" opacity="0.0" prefHeight="85.0" prefWidth="85.0" style="-fx-background-radius: 50;" text="RestartButton" />
+   </children>
+</AnchorPane>

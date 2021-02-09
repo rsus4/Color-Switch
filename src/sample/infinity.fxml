@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Infinity">
+   <children>
+      <ImageView fitHeight="107.0" fitWidth="407.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Endless.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ReturnHome" layoutX="19.0" layoutY="28.0" mnemonicParsing="false" onAction="#goBackFromInfinityAction" opacity="0.0" prefHeight="57.0" prefWidth="55.0" style="-fx-background-radius: 50;" text="ReturnHome" />
+      <ImageView fitHeight="91.0" fitWidth="227.0" layoutX="162.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Classic.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="ClassicButton" layoutX="162.0" layoutY="138.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="227.0" text="ClassicButton" visible="false" />
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutX="25.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Best24.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="227.0" layoutX="161.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@FireflyMode.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="FireFlyButton" layoutX="161.0" layoutY="267.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="227.0" text="FireflyButton" visible="false" />
+      <ImageView fitHeight="117.0" fitWidth="132.0" layoutX="25.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Best24.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

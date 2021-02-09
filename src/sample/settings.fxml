@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Settings">
+   <children>
+      <ImageView fitHeight="90.0" fitWidth="89.0" layoutX="25.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ReturnButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="164.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Settings.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ReturnButton" layoutX="35.0" layoutY="39.0" mnemonicParsing="false" onAction="#goBackFromSettingsAction" opacity="0.0" prefHeight="68.0" prefWidth="70.0" style="-fx-background-radius: 50;" text="ReturnButton" />
+      <ImageView fitHeight="81.0" fitWidth="89.0" layoutX="25.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cloud.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="112.0" layoutX="26.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Save.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="85.0" layoutX="30.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Music.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="89.0" layoutX="26.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Sounds.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="EnableAutoCloud" layoutX="169.0" layoutY="155.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="190.0" text="EnableAutoCloud" />
+      <Button fx:id="PlayMusic" layoutX="164.0" layoutY="340.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="190.0" text="Play Music" />
+      <Button fx:id="PlaySounds" layoutX="164.0" layoutY="430.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="190.0" text="Play Sounds" />
+      <Button fx:id="SaveButton" layoutX="169.0" layoutY="240.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="87.0" text="Save" />
+      <Button fx:id="LoadButton" layoutX="272.0" layoutY="240.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="87.0" text="Load" />
+   </children>
+</AnchorPane>

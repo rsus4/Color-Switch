@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Pause">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PauseLabel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="98.0" layoutX="23.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="119.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finalbutton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ReturnHome" layoutX="36.0" layoutY="48.0" mnemonicParsing="false" onAction="#ActionReturnHome" opacity="0.0" prefHeight="66.0" prefWidth="72.0" style="-fx-background-radius: 50;" text="home" />
+      <Button fx:id="ResumeButton" layoutX="145.0" layoutY="281.0" mnemonicParsing="false" onAction="#ActionResume" opacity="0.0" prefHeight="104.0" prefWidth="98.0" style="-fx-background-radius: 60;" text="ResumeButton" />
+      <Button fx:id="SaveStateButton" layoutX="110.0" layoutY="446.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="169.0" text="SAVE GAME " />
+   </children>
+</AnchorPane>

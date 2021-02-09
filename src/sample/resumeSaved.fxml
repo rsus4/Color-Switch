@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ResumeSaved">
+   <children>
+      <Button fx:id="Game1" layoutX="112.0" layoutY="170.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Game 1" textAlignment="CENTER" textFill="#4ea106" />
+      <Button fx:id="Game2" layoutX="112.0" layoutY="243.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Game 2" textAlignment="CENTER" textFill="#4ea106" />
+      <Button fx:id="Game3" layoutX="112.0" layoutY="316.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Game 3" textAlignment="CENTER" textFill="#4ea106" />
+      <Button fx:id="Game4" layoutX="112.0" layoutY="386.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Game 4" textAlignment="CENTER" textFill="#4ea106" />
+      <Button fx:id="Game5" layoutX="112.0" layoutY="461.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="177.0" text="Game 5" textAlignment="CENTER" textFill="#4ea106" />
+      <Text fill="#186118" layoutX="103.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resume Saved Game" textAlignment="CENTER" wrappingWidth="196.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="66.0" fitWidth="61.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ReturnButton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ReturnHome" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#ActionReturnHome" opacity="0.0" prefHeight="55.0" prefWidth="61.0" style="-fx-background-radius: 50;" text="Button" />
+   </children>
+</AnchorPane>

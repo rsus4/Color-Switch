@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #202020;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Last">
+   <children>
+      <ImageView fitHeight="79.0" fitWidth="97.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ReturnButton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="lastReturnButton" layoutX="23.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleLastReturn" opacity="0.0" prefHeight="63.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="lastReturn" />
+      <ImageView fitHeight="129.0" fitWidth="191.0" layoutX="108.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@colorSwitchLabel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firstSmallRing" fitHeight="37.0" fitWidth="38.0" layoutX="156.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ring1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="secondSmallRing" fitHeight="37.0" fitWidth="38.0" layoutX="207.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ring1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="400.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="400.0" layoutX="2.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BestScore.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="113.0" layoutX="143.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Replay.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="107.0" layoutX="23.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3Stars.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="RetryButton" layoutX="165.0" layoutY="483.0" mnemonicParsing="false" onAction="#handleRetry" opacity="0.0" prefHeight="63.0" prefWidth="62.0" style="-fx-background-radius: 50;" text="Retry" />
+      <Text fill="#fff9f9" layoutX="188.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#fff9f9" layoutX="186.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#fff9f9" layoutX="62.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
